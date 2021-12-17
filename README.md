@@ -1,11 +1,8 @@
-This repository holds code to update the drivers of tree cover loss dataset on Resource Watch.
+This repository holds code to update the drivers of tree cover loss dataset on Global Forest Watch Watch.
 
 File structure:
-- inputs: plot data, labeled tiles, landsat imagery 
-- outputs: predicted tiles
 - unetModels: jupyter notebooks for preprocessing inputs and running models
-- utils: python helper functions for modeling
-- viz: visualizations of predictions
+- gcloudModels: google cloud ai platform 
 
 Run order for unetModels:
 1. exportTCLOverPlots.ipynb: export tree cover loss over the plot, includes all years of loss
